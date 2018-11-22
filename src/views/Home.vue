@@ -10,11 +10,11 @@
 
 <script>
 // @ is an alias to /src
-import HomeHeader from '@/components/Header.vue'
-import HomeSwiper from '@/components/Swiper.vue'
-import HomeIcons from '@/components/Icons.vue'
-import HomeRecommend from '@/components/Recommend.vue'
-import HomeWeekend from '@/components/Weekend.vue'
+import HomeHeader from '@/components/index/Header.vue'
+import HomeSwiper from '@/components/index/Swiper.vue'
+import HomeIcons from '@/components/index/Icons.vue'
+import HomeRecommend from '@/components/index/Recommend.vue'
+import HomeWeekend from '@/components/index/Weekend.vue'
 
 export default {
   name: 'home',
@@ -24,6 +24,6 @@ export default {
     HomeIcons,
     HomeRecommend,
     HomeWeekend
-  }
+  },
 }
 </script>

@@ -82,8 +82,8 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
- @import '../assets/varibles.stl'
- @import '../assets/mixins.stl'
+ @import '../../assets/varibles.stl'
+ @import '../../assets/mixins.stl'
 .icons >>> .swiper-container
    height: 0
    padding-bottom: 50%
@@ -103,7 +103,7 @@ export default {
           bottom: 0
           height:.40rem
           line-height:.40rem
-          font-size: 14px
+          font-size: .28rem
           text-align: center
           color: $darkTestColor
           ellipsis()

@@ -6,10 +6,12 @@
      <div class="header-input">
         <span class="iconfont">&#xe632;</span>
        输入游玩城市/景点/游玩主题</div>
+      <router-link to="/city">
      <div class="header-right">
        城市
        <span class="iconfont arrow-icon">&#xe600;</span>
       </div>
+      </router-link>
   </div>
 </template>
 
@@ -20,13 +22,13 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
-  @import '../assets/varibles.stl'
+  @import '../../assets/varibles.stl'
  .header 
       display: flex
       line-height: .82rem
       background: $bgColor
       color: #fff
-      font-size:16px
+      font-size: .32rem
     .header-left 
         float: left
         width: .84rem
@@ -46,6 +48,7 @@ export default {
     .header-right
         float: right
         width: 1.24rem
+        color: #fff
         text-align: center
         .arrow-icon 
            font-size: .2rem
