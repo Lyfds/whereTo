@@ -15,7 +15,8 @@ html {
   font-size: 50px;
   overflow: hidden;
   height: 100%;
-  
+  -webkit-overflow-scrolling: touch;
+  overflow-y : scroll;
 }
 </style>
 
